@@ -43,5 +43,7 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swap_node_ahead(listint_t **list, listint_t **tail, listint_t **shaker);
 void swap_node_behind(listint_t **list, listint_t **tail, listint_t **shaker);
+void counting_sort(int *array, size_t size);
+int get_max(int *array, int size);
 
 #endif /* SORT_H */
